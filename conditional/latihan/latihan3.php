@@ -1,9 +1,9 @@
 <?php
 
-$nama = "Budi";
-$status = "Manager";
-$keluarga = 5;
-$lembur = 45;
+$nama = "Ratna";
+$status = "ob";
+$keluarga = 1;
+$lembur = 35;
 
 echo "Nama : " . $nama . "<br>";
 echo "Status : $status <br>";
@@ -13,7 +13,7 @@ if ($status == "Manager") {
     $blembur = 50000;
     $uangtransport = 50000;
     echo "Gaji pokok : $gaji";
-}else if ($status == "Sekretearis") {
+}else if ($status == "Sekretaris") {
     $gaji = 3500000 ;
     $blembur = 45000;
     $uangtransport = 35000;
